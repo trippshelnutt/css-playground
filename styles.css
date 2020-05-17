@@ -1,0 +1,27 @@
+body {
+    background-color: azure;
+}
+
+table {
+    padding: 50px;
+}
+
+#table1 tr:first-of-type {
+    background-color: bisque;
+}
+
+#table1 tr > td:nth-child(2) {
+    color: red;
+}
+
+#table1 tr:last-of-type {
+    background-color: antiquewhite;
+}
+
+#table2 td:first-child {
+    font-weight: bold;
+}
+
+#table2 tr:nth-child(odd) {
+    background-color: lightblue;
+}
